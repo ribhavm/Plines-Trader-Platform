@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homepage</title>
+    <!-- bootstrap css file -->
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <!-- custom css file -->
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <!-- ===================== start header area ==================== -->
+    <header class="header_area">
+        <div class="main-menu">
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <div class="container-fluid">
+                  <a class="navbar-brand" href="#"><img src="../img/logo.jpg" alt="logo" height="38"></a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarNav">
+                      <div class="me-auto"></div>
+                    <ul class="navbar-nav">
+                      <li class="nav-item">
+                        <a class="nav-link "  href="../index.html">Home</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="./howitworks.html">How it Works</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="./index3.html">Give Feedback</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#aboutus">About Us</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="./index2.html">Subscribe</a>
+                      </li>
+                      <li class="nav-item">
+                        <button type="button" class="btn button primary-button mr-4 text-uppercase" onclick="window.location.href = './login.html';">Login</button>
+                      </li>
+                      <li class="nav-item">
+                        <button type="button" class="btn button primary-button mr-4 text-uppercase" onclick="window.location.href = './financial.html';">Financial Planning</button>
+                      </li>
+                      
+                    </ul>
+                  </div>
+                </div>
+              </nav>
+        </div>
+    </header>
+    <style>
+    	body {
+		background-color: #f8f8f8;
+		font-size: 110%;
+		font-family: Helvetica;
+	}
+	#navbar {
+		background-color: #ECEBEB;
+		position: fixed;
+		height: 100%;
+		width: 22vw;
+		top: 0;
+		left: 0;
+		z-index: 1;
+		padding: 20px;
+		overflow-x: hidden;
+		border-right: 3px solid black;
+	}
+	@media (max-width: 800px) {
+		#navbar {
+			position: relative;
+			width: 100%;
+			max-height: 200px;
+			top: 0;
+			padding: 0;
+			margin: 0;
+			border-right: none;
+			border-bottom: 3px solid black;
+		}
+	}
+	#navbar header {
+		position: absolute;
+		text-align: center;
+		width: 100%;
+		top: 0;
+		left: 0;
+		margin: 0;
+	}
+	@media (max-width: 800px) {
+		#navbar header {
+			position: relative;
+		}
+	}
+	#navbar ul {
+		list-style-type: none;
+		position: relative;
+		top: 15%;		
+	}
+	@media (max-width: 800px) {
+		#navbar ul {
+			right: 0;
+		}
+	}
+	#navbar li {
+		padding: 20px;
+	}
+	.nav-link {
+		text-decoration: none;
+	}
+	.nav-link:link {
+		color: #1D0BA9;
+	}
+	.nav-link:hover {
+		color: #000000;
+	}
+	.nav-link:visited {
+		color: #120765;
+	}
+	#main-doc {
+		position: absolute;
+		padding: 10px;
+		margin-left: 25vw;
+		overflow: hidden;
+	}
+	@media (max-width: 800px) {
+		#main-doc {
+			position: relative;
+			margin: 0px;
+		}
+	}
+	.main-section {
+		padding: 20px;
+	}
+	header {
+		color: #4d95d0;
+		background-color: #b4df52;
+		font-size: 200%;
+
+	}	
+	h2 {
+		color: #1D0BA9;
+	}
+	h3 {
+		color: #120765;
+	}
+	h4 {
+		color: #120765;
+	}
+    p {
+        color: #120765;
+    }	
+	#basic-elements li {
+		font-size: 110%;
+		font-weight: bold;
+	}
+	#basic-ex, #table-ex,
+	.para-ex, .lists-ex {
+		text-align: center;
+	}
+	@media (max-width: 800px) {
+		.para-ex {
+			position: relative;
+			right: 15%;
+		}
+	}
+	#headings-list, #links-list {
+		position: relative;
+		left: 30%;
+		list-style-position: inside;
+	}
+	@media (max-width: 600px) {
+		#headings-list, #links-list {
+			left: 10%;
+		}
+	}
+	@media (max-width: 800px) {
+		#hp_header {
+			font-size: 180%;
+		}
+	}
+</style>
+	<section class="main-section" id="HTML">
+    <header>About us</header>
+	<p>We are an upcoming trade services providing website that aims to link traders such as plumbers, maids, electricians, painters and masons to their prospective client in India. Created by students of IIT Jodhpur, Our aim is to connect the trader to the customer in a way that is mutually beneficial.</p>
+	<img src="../img/IITJ.jfif" alt="#" width=1200px height=400px>
+	<p>Once the work is complete, homeowners leacve a review of the tradesperson- and its this feedback that gives other homeowners peace of mind that they have found someone reliable.</p>
+	<p>Each tradesperson has a profile page where their reviews are listed, and only homeowners who have found their tradesperson through our site are allowed to leave a review.</p>
+	<p>For homeowners, posting a job is free. Our tradespeople pay a low subscription fee along with a small cost to qoute for each job.</p>
+	<header>Our Vision</header>
+		<p>To connect good homeowners with good tradespeople to deliver better homes, better work and better lives.</p>
+    <p>We want the excitement and potential of home improvement to be the only thing on people’s minds. Finding a reliable tradesperson should be easy, just the first step in a satisfying process of making the most of your home. Everything we do is shaped towards that feeling.</p>
+    <p>We work solidly to prevent rogues on our site, and we put the best tradespeople in the spotlight – the ones who are reliable, skilled and trustworthy.</p>
+    <p>We want tradespeople to have the confidence to grow their business and take control of their workload. Whatever their ambitions, whether it’s to fill a few gaps in the diary, or if they want enough work to take on new staff and hire apprentices – we’re there for them.</p>
+	</section>
+	
+    
+    <!-- ====================== end header area ===================== -->
+    <!-- bootstrap js file -->
+    <script src="../js/bootstrap.min.js"></script>
+    <!-- custom js file -->
+    <script src="../js/main.js"></script>
+    <!-- jquery js file -->
+    <script src="../js/jquery3.6.0.js"></script>
+</body>
+</html>

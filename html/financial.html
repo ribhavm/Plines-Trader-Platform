@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homepage</title>
+    <!-- bootstrap css file -->
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <!-- custom css file -->
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+  <style>
+    .header_area .main-menu .navbar-nav .button{
+    box-sizing: border-box;
+  }
+   .site-banner{
+    background: url(../img/financial.jpg) no-repeat ;
+    padding-top: 8.5%;
+    background-position: center;
+    
+}
+
+ .site-banner .site-title {
+    padding-bottom: 25%;
+    padding-left: 15%;
+    display: inline-block;  
+    white-space: nowrap;
+}
+
+
+ .site-banner .site-title h1{
+    font-size: 3rem;
+    color: black;
+    padding-bottom: 3%;
+    margin: auto;
+    white-space: nowrap;
+    
+}
+ .site-banner .site-title h4{
+    padding-bottom: 3%;
+    color: black;
+    margin: auto;
+    
+}
+  </style>
+    <!-- ===================== start header area ==================== -->
+    <header class="header_area">
+        <div class="main-menu">
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <div class="container-fluid">
+                  <a class="navbar-brand" href="#"><img src="../img/logo.jpg" alt="logo" height="38"></a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarNav">
+                      <div class="me-auto"></div>
+                    <ul class="navbar-nav">
+                      <li class="nav-item">
+                        <a class="nav-link" href="../index.html">Home</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="./howitworks.html">How it Works</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="./index3.html">Give Feedback</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="./aboutus.html">About Us</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="./index2.html">Subscribe</a>
+                      </li>
+                      <li class="nav-item">
+                        <button type="button" class="btn button primary-button mr-4 text-uppercase" onclick="window.location.href = './login.html';">Login</button>
+                      </li>
+                      <li class="nav-item">
+                        <button type="button" class="btn button primary-button mr-4 text-uppercase">Financial Planning</button>
+                      </li>
+                      
+                    </ul>
+                  </div>
+                </div>
+              </nav>
+        </div>
+    </header>
+    <style>
+    	body {
+		background-color: #f8f8f8;
+		font-size: 110%;
+		font-family: Helvetica;
+	}
+	#navbar {
+		background-color: #ECEBEB;
+		position: fixed;
+		height: 100%;
+		width: 22vw;
+		top: 0;
+		left: 0;
+		z-index: 1;
+		padding: 20px;
+		overflow-x: hidden;
+		border-right: 3px solid black;
+	}
+	@media (max-width: 800px) {
+		#navbar {
+			position: relative;
+			width: 100%;
+			max-height: 200px;
+			top: 0;
+			padding: 0;
+			margin: 0;
+			border-right: none;
+			border-bottom: 3px solid black;
+		}
+	}
+	#navbar header {
+		position: absolute;
+		text-align: center;
+		width: 100%;
+		top: 0;
+		left: 0;
+		margin: 0;
+	}
+	@media (max-width: 800px) {
+		#navbar header {
+			position: relative;
+		}
+	}
+	#navbar ul {
+		list-style-type: none;
+		position: relative;
+		top: 15%;		
+	}
+	@media (max-width: 800px) {
+		#navbar ul {
+			right: 0;
+		}
+	}
+	#navbar li {
+		padding: 20px;
+	}
+	.nav-link {
+		text-decoration: none;
+	}
+	.nav-link:link {
+		color: #1D0BA9;
+	}
+	.nav-link:hover {
+		color: #000000;
+	}
+	.nav-link:visited {
+		color: #120765;
+	}
+	#main-doc {
+		position: absolute;
+		padding: 10px;
+		margin-left: 25vw;
+		overflow: hidden;
+	}
+	@media (max-width: 800px) {
+		#main-doc {
+			position: relative;
+			margin: 0px;
+		}
+	}
+	.main-section {
+		padding: 20px;
+	}
+	header {
+		color: #4d95d0;
+		background-color: #b4df52;
+		font-size: 200%;
+
+	}	
+	h2 {
+		color: #1D0BA9;
+	}
+	h3 {
+		color: #120765;
+	}
+	h4 {
+		color: #120765;
+	}
+    p {
+        color: #120765;
+    }	
+	#basic-elements li {
+		font-size: 110%;
+		font-weight: bold;
+	}
+	#basic-ex, #table-ex,
+	.para-ex, .lists-ex {
+		text-align: center;
+	}
+	@media (max-width: 800px) {
+		.para-ex {
+			position: relative;
+			right: 15%;
+		}
+	}
+	#headings-list, #links-list {
+		position: relative;
+		left: 30%;
+		list-style-position: inside;
+	}
+	@media (max-width: 600px) {
+		#headings-list, #links-list {
+			left: 10%;
+		}
+	}
+	@media (max-width: 800px) {
+		#hp_header {
+			font-size: 180%;
+		}
+	}
+</style>
+    <!-- ====================== end header area ===================== -->
+        <section id="site_banner" class="site-banner">
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-6 col-md-12 site-title">
+                <h1 class="title-text ">Financial Planning for the Tradesperson</h1>
+
+              </div>
+            </div>
+          </div>
+  
+        </section>
+        <section class="main-section" id="HTML">
+          <p>You don’t need a higher-paying job or a windfall from a relative to improve your personal finances. For many people, better money management is all it takes to reduce their spending, improve their ability to invest and save, and achieve financial goals that once seemed impossible.</p>
+          <p>Even if you feel like your finances are stuck in a bad place with no way out, there are a number of things you can do to create a better situation for yourself. Here are seven to get you started.</p>
+          <header>1. Track your spending to improve your finances.</header>
+          <p>If you don’t know what and where you’re spending each month, there’s a good chance your personal spending habits have room for improvement.</p>
+          <p>Better money management starts with spending awareness. Use a money management app like MoneyTrack to track spending across categories, and see for yourself how much you’re spending on non-essentials such as dining, entertainment, and even that daily coffee. Once you’ve educated yourself on these habits, you can make a plan to improve.</p>
+          <header>2. Create a realistic monthly budget.</header>
+          <p>Use your monthly spending habits, as well as your monthly take-home pay, to set a budget you know you can keep.</p>
+          <p>There’s no use setting a strict budget based on drastic changes, such as never eating out when you’re currently ordering takeout four times a week. Create a budget that works with your lifestyle and spending habits. </p>
+          <p>You should see a budget as a way to encourage better habits, such as cooking at home more often, but give yourself a realistic shot at meeting this budget. That’s the only way this money management method will work.</p>
+          <header>3. Build up your savings—even if it takes</header>
+          <p>Create an emergency fund that you can dip into when unforeseen circumstances strike. Even if your contributions are small, this fund can save you from risky situations in which you’re forced to borrow money at high-interest rates or possibly find yourself unable to pay your bills on time.</p>
+          <p>You should also make general savings contributions to strengthen your financial security in the event of a job loss. Use automatic contributions such as FSCB's pocket change to grow this fund and reinforce the habit of putting away money.</p>
+          <header>4. Pay your bills on time every month.</header>
+          <p>Paying bills on time is an easy way to manage your money wisely, and it comes with excellent benefits: It helps you avoid late fees and prioritizes essential spending. A strong on-time payment history can also lift your credit score and improve your interest rates.</p>
+          <header>5. Cut back on recurring charges.</header>
+          <p>Do you subscribe to services you never use? It’s easy to forget about monthly subscriptions to streaming services and mobile apps that charge your bank account even when you don’t regularly use these services.</p>
+          <p>Review your spending for charges like these, and consider canceling unnecessary subscriptions to hold onto more money each month.</p>
+          <header>6. Save up cash to afford big purchases.</header>
+          <p>Certain kinds of loans and debt can be helpful when making major purchases, such as a house or even a car that you need right now. But for other big purchases, cash offers the safest and cheapest buying option.</p>
+          <p>When you buy in cash, you avoid generating interest and creating a debt that requires months—or, often, years—to pay back. In the meantime, that saved money can sit in a bank account and accumulate interest that can be put toward your purchase.</p>
+          <header>7. Start an investment strategy.</header>
+          <p>Even if your ability to invest is limited, small contributions to investment accounts can help you use your earned money to generate more income.</p>
+          <p>Find out if your employer offers 401(k) matching, which essentially serves as free money. Consider opening a retirement account or other investment account.</p>
+          <p>The path to better finances starts with changing your own habits. Some of these changes will be easier than others, but if you stay committed to this transformation, you’ll end up with great money management skills that will serve you throughout your life—and in the meantime, you’ll have more money in your pocket.</p>

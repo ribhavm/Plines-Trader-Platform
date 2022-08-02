@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homepage</title>
+    <!-- bootstrap css file -->
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <!-- custom css file -->
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+  <style>
+    .header_area .main-menu .navbar-nav .button{
+    box-sizing: border-box;
+  }
+  </style>
+    <!-- ===================== start header area ==================== -->
+    <header class="header_area">
+        <div class="main-menu">
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <div class="container-fluid">
+                  <a class="navbar-brand" href="#"><img src="../img/logo.jpg" alt="logo" height="38"></a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarNav">
+                      <div class="me-auto"></div>
+                    <ul class="navbar-nav">
+                      <li class="nav-item">
+                        <a class="nav-link " href="./index.html">Home</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#about_area">How it Works</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="../html/index3.html">Give Feedback</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="../html/aboutus.html">About Us</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="../html/index2.html">Subscribe</a>
+                      </li>
+                      <li class="nav-item">
+                        <button type="button" class="btn button primary-button mr-4 text-uppercase" onclick="window.location.href = '../html/login.html';">Login</button>
+                      </li>
+                      <li class="nav-item">
+                        <button type="button" class="btn button primary-button mr-4 text-uppercase" onclick="window.location.href = '../html/financial.html';">Financial Planning</button>
+                      </li>
+                      
+                    </ul>
+                  </div>
+                </div>
+              </nav>
+        </div>
+    </header>
+
+    
+
+<style>
+    	body {
+		background-color: #f8f8f8;
+		font-size: 110%;
+		font-family: Helvetica;
+	}
+	#navbar {
+		background-color: #ECEBEB;
+		position: fixed;
+		height: 100%;
+		width: 22vw;
+		top: 0;
+		left: 0;
+		z-index: 1;
+		padding: 20px;
+		overflow-x: hidden;
+		border-right: 3px solid black;
+	}
+	@media (max-width: 800px) {
+		#navbar {
+			position: relative;
+			width: 100%;
+			max-height: 200px;
+			top: 0;
+			padding: 0;
+			margin: 0;
+			border-right: none;
+			border-bottom: 3px solid black;
+		}
+	}
+	#navbar header {
+		position: absolute;
+		text-align: center;
+		width: 100%;
+		top: 0;
+		left: 0;
+		margin: 0;
+	}
+	@media (max-width: 800px) {
+		#navbar header {
+			position: relative;
+		}
+	}
+	#navbar ul {
+		list-style-type: none;
+		position: relative;
+		top: 15%;		
+	}
+	@media (max-width: 800px) {
+		#navbar ul {
+			right: 0;
+		}
+	}
+	#navbar li {
+		padding: 20px;
+	}
+	.nav-link {
+		text-decoration: none;
+	}
+	.nav-link:link {
+		color: #1D0BA9;
+	}
+	.nav-link:hover {
+		color: #000000;
+	}
+	.nav-link:visited {
+		color: #120765;
+	}
+	#main-doc {
+		position: absolute;
+		padding: 10px;
+		margin-left: 25vw;
+		overflow: hidden;
+	}
+	@media (max-width: 800px) {
+		#main-doc {
+			position: relative;
+			margin: 0px;
+		}
+	}
+	.main-section {
+		padding: 20px;
+	}
+	header {
+		color: #4d95d0;
+		background-color: #b4df52;
+		font-size: 200%;
+
+	}	
+	h2 {
+		color: #1D0BA9;
+	}
+	h3 {
+		color: #120765;
+	}
+	h4 {
+		color: #120765;
+	}
+    p {
+        color: #120765;
+    }	
+	#basic-elements li {
+		font-size: 110%;
+		font-weight: bold;
+	}
+	#basic-ex, #table-ex,
+	.para-ex, .lists-ex {
+		text-align: center;
+	}
+	@media (max-width: 800px) {
+		.para-ex {
+			position: relative;
+			right: 15%;
+		}
+	}
+	#headings-list, #links-list {
+		position: relative;
+		left: 30%;
+		list-style-position: inside;
+	}
+	@media (max-width: 600px) {
+		#headings-list, #links-list {
+			left: 10%;
+		}
+	}
+	@media (max-width: 800px) {
+		#hp_header {
+			font-size: 180%;
+		}
+	}
+</style>
+	<section class="main-section" id="HTML">
+	<header>How Our Service Works</header>
+         <h4>1. Create a job – it’s free</h4>
+		<p>Whatever you need doing around the house, we can connect you with the right tradesperson. With over 10 specialist trades, covering the whole of the country, every job’s covered. Just give us as much detail as possible so our tradespeople can get you an accurate quote.</p>
+        <h4>3. Check ratings</h4>
+        <p>You’ll get a link to each tradesperson’s profile page where you can see their ratings and reviews. Only homeowners who have found their tradesperson through our site can leave ratings, so they’re based on genuine experiences.</p>
+        <h4>4. Pick a tradesperson</h4>
+        <p>Go through our homeowner checklist, which explains how to review a tradesperson’s qualifications, reputation and agree the work.</p>
+        <h4>5. Job done</h4>
+        <p>After the work is complete, return to the site and rate your tradesperson based on quality of their work, reliability and value for money.</p>
+	</section>
+	<section class="main-section" id="HTML">
+	<header>For the Tradepersons</header>
+		<p>At the log in / sign up portal registered tradespersons can log in to their premium accounts where they can view their past trades history, feedback and average ratings, income earned, commissions and subscriptions fee due, new jobs available, tradesperson job seeking offers uploaded etc.</p>
+        <p>A new tradesperson looking to register can click the sign up link.</p>
+		<p><code>&lt;This link will take you to a documented page which will contain the information about how this website works.&gt;</code></p>
+		<p><code>&lt;It would include a basic map/guide to the website.&gt;</code></p>
+		<p><code>&lt;It could also contain advisories that contain basic instructions on how to use the various facilities so as to help bridge the technology gap for the underprivileged users.&gt;</code></p>
+		<p><code>&lt;It would also explain the demand and supply currently on the website in terms of the total tradespersons and customers registered respectively.&gt;</code></p>
+	</section>
+	<hr>
+	<section class="main-section" id="Basic_Page_Structure">
+	<header>For the Customers</header>
+		<ul id="basic-elements">
+			<p>Once the customers create their free account via email or mobile no. with us they can start looking for tradespersons on our website.</p>
+            
+			<li><code>This follow 3 easy steps:&gt;</code></li>
+			<p>1. Creating a Job Post</p>
+			<p>2. Booking a Timeslot</p>
+			<p>3. Rating & Reviewing the services.</p>
+			
+			<p>For payment we plan to offer multiple transactional options such as cash on delivery, net banking and BHIM UPI. </p>
+			<p>Once the job is done the customers can then use our feedback and customer service portal to review the job done and give ratings.</p>
+	<hr>
+	

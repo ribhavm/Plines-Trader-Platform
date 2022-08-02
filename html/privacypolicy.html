@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homepage</title>
+    <!-- bootstrap css file -->
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <!-- custom css file -->
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <!-- ===================== start header area ==================== -->
+    <header class="header_area">
+        <div class="main-menu">
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <div class="container-fluid">
+                  <a class="navbar-brand" href="#"><img src="../img/logo.jpg" alt="logo" height="38"></a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarNav">
+                      <div class="me-auto"></div>
+                    <ul class="navbar-nav">
+                      <li class="nav-item">
+                        <a class="nav-link "  href="../index.html">Home</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="./howitworks.html">How it Works</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="./index3.html">Give Feedback</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="./aboutus.html">About Us</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="./index2.html">Subscribe</a>
+                      </li>
+                      <li class="nav-item">
+                        <button type="button" class="btn button primary-button mr-4 text-uppercase" >Login <a href="./index4.html"></a></button>
+                      </li>
+                      <li class="nav-item">
+                        <button type="button" class="btn button primary-button mr-4 text-uppercase" onclick="window.location.href = './financial.html';">Financial Planning</button>
+                      </li>
+                      
+                    </ul>
+                  </div>
+                </div>
+              </nav>
+        </div>
+    </header>
+    <style>
+    	body {
+		background-color: #f8f8f8;
+		font-size: 110%;
+		font-family: Helvetica;
+	}
+	#navbar {
+		background-color: #ECEBEB;
+		position: fixed;
+		height: 100%;
+		width: 22vw;
+		top: 0;
+		left: 0;
+		z-index: 1;
+		padding: 20px;
+		overflow-x: hidden;
+		border-right: 3px solid black;
+	}
+	@media (max-width: 800px) {
+		#navbar {
+			position: relative;
+			width: 100%;
+			max-height: 200px;
+			top: 0;
+			padding: 0;
+			margin: 0;
+			border-right: none;
+			border-bottom: 3px solid black;
+		}
+	}
+	#navbar header {
+		position: absolute;
+		text-align: center;
+		width: 100%;
+		top: 0;
+		left: 0;
+		margin: 0;
+	}
+	@media (max-width: 800px) {
+		#navbar header {
+			position: relative;
+		}
+	}
+	#navbar ul {
+		list-style-type: none;
+		position: relative;
+		top: 15%;		
+	}
+	@media (max-width: 800px) {
+		#navbar ul {
+			right: 0;
+		}
+	}
+	#navbar li {
+		padding: 20px;
+	}
+	.nav-link {
+		text-decoration: none;
+	}
+	.nav-link:link {
+		color: #1D0BA9;
+	}
+	.nav-link:hover {
+		color: #000000;
+	}
+	.nav-link:visited {
+		color: #120765;
+	}
+	#main-doc {
+		position: absolute;
+		padding: 10px;
+		margin-left: 25vw;
+		overflow: hidden;
+	}
+	@media (max-width: 800px) {
+		#main-doc {
+			position: relative;
+			margin: 0px;
+		}
+	}
+	.main-section {
+		padding: 20px;
+	}
+	header {
+		color: #4d95d0;
+		background-color: #b4df52;
+		font-size: 200%;
+
+	}	
+	h2 {
+		color: #1D0BA9;
+	}
+	h3 {
+		color: #120765;
+	}
+	h4 {
+		color: #120765;
+	}
+    p {
+        color: #120765;
+    }	
+	#basic-elements li {
+		font-size: 110%;
+		font-weight: bold;
+	}
+	#basic-ex, #table-ex,
+	.para-ex, .lists-ex {
+		text-align: center;
+	}
+	@media (max-width: 800px) {
+		.para-ex {
+			position: relative;
+			right: 15%;
+		}
+	}
+	#headings-list, #links-list {
+		position: relative;
+		left: 30%;
+		list-style-position: inside;
+	}
+	@media (max-width: 600px) {
+		#headings-list, #links-list {
+			left: 10%;
+		}
+	}
+	@media (max-width: 800px) {
+		#hp_header {
+			font-size: 180%;
+		}
+	}
+</style>
+	<section class="main-section" id="HTML">
+        <h2>Privacy Policy</h2>
+        <h4>This notice describes how we use your information.</h4>
+        <h4>By clicking on the ‘Confirm’ button on sign up, by visiting www.plines.com, you are accepting the practices described in this Privacy Notice.</h4>
+	<header>1.Collecting of personal information</header>
+    <p>"Personal information is defined to include information that whether on its own or in combination with other information may be used to readily identify or
+        contact you such as: name, address, email address, phone number etc.</p>
+    <p>We collect personal information from Service Professionals offering their products and services. This information is partially or completely accessible to all
+        visitors using Plines's website, either directly or by submitting a request for a service. Service Professionals and customers
+        are required to create an account to be able to access certain portions of our Website, such as to submit questions, participate in polls or surveys, to
+        request a quote, to submit a bid in response to a quote, and request information. Service Professionals, if and when they create and use an account with
+        Plines, will be required to disclose and provide to Plines information including personal contact details, bank details, personal
+        identification details (such as PAN card, Aadhar card, phonebook, call logs etc.) and participate in polls or surveys or feedbacks etc. Such information
+        gathered shall be utilized to ensure greater customer satisfaction and help a customer satiate their needs. The type of personal information that we collect
+        from you varies based on your particular interaction with our VWebsite or mobile application.</p>
+    <p>Consumers: During the Account registration process and during your usage of PLines's website, we will colect information such as
+            your name, postal code, telephone email address and other personal information. You also may provide us with your, mailing address, and demographic
+            information (eg. gender, age, political preference, education, race or ethnic origin, and other information relevant to user surveys and/or offers). We may
+            also collect personal information that you post in your Offer, Profile, Wants, or Feedback, and any comments or discussions you post in any blog, chat room,
+            or other correspondence site on the Website, or any comments you provide during dispute resolution with other users of the Website
+            or mobile application.</p>
+    <p>Service Professionals: If you are a Service Professional and would like to post any information about yourself, we will require you to register for an Account.
+        During the Account registration process, we will collect your business name, telephone number, address, zip code, travel preferences, a description of your
+        services, a headline for your profile, first cand last name, and email address. Other information may also be required to be provided to Urban Company
+        whilst you avail and use Urban Company's website or application. In addition, you may, but are not required to, provide other content or information about
+        your business, including photographs and videos. We also may collect payment information, such as credit card information, from you.</p>     
+        <p>PLines reserves the right to record the conversations between service professionals and consumers facilitated by PLines through the
+            messaging/chat mechanism on the platform or the calls made through the virtual numbers provided to safeguard the privacy of consumers and service
+            professionals. All the chat/messaging logs or call recordings can be used to but not limited to monitor and prohibit abuse, safeguard the rights of
+            consumers and service professionals, resolve disputes.</p>  
+        <p>If we deem it necessary, in our sole and absolute discretion, we may also ask for and collect supplemental information from third parties, such as
+            information about your credit from a credit bureau (to the extent permitted by law), or information to verify any identification details you provide during
+            registration.</p>
+
+    <header>2.Collection of personal information from social networking sites</header>
+    <p>You may log into our Website through your Facebook account. If you do so, you must enter the email address and password that yoU Use for your Facebook
+        account. We will ask that you grant us permission to access and collect your Facebook basic information (this includes your name, profile picture, gender,
+        networks, User IDs, list of friends, date of birth, email address, and any other information you have set to public on your Facebook account). If you allow us to
+        have access to this information, then we will have access to this information even if you have chosen not to make that information public.</p>
+    <p>We store the information that we receive from Facebook with other information that we collect from you or receive about you.</p>
+    <p>Facebook controls the information it collects from you. For information about how Facebook may use and disclose your information, including any
+        information you make public, please consult Facebook's privacy policy. We have no control over how any third party site uses or discloses the personal
+        information it collects about you.</p>
+    <header>3.Collection of automatic information, cookies and other tracking devices</header>
+    <p>We and our third party service providers, which include ad networks, use cookies, web beacons, and other tracking technologies to collect information
+        about your use of our Website and Services, such as your browser type, your ISP or operating system, your domain name, your access time, the URL of the
+        previous website you visited, your page views, your IP address, and the type of device that you Use. We also track how frequently you visit our Website and
+        use our Services. We use this information (including the information collected by our third party service providers) for Website analytics (including to
+        determine which portions of our Website are used most frequently, what our users like/do not like), to assist us in determining relevant advertising (both on
+        and off our Website), to evaluate the success of our advertising campaigns, and as otherwise described in this policy. Currently, we do not honour browser
+        requests not to be tracked.</p>
+        <p>We may obtain your device ID, which is sent to Plines's servers and used in fraud prevention efforts.
+        </p>
+        <p>Cookies. We and our third party service providers collect information from you by using cookies. A cookie is a small file stored on user's computer hard drive
+            containing information about the user. The cookie helps us analyze web traffic or informs you about your use of a particular website. Cookies allow web
+            applications to respond to you as an individual, tailoring its operations to your needs, likes and dislikes by gathering and remembering information about
+            your preferences. When you visit the Website, we may send one or more cookies (ie., a small text file containinga string of alphanumeric characters) to your
+            computer that identifies your browser.</p>
+	</section>
+	
+    
+    <!-- ====================== end header area ===================== -->
+    <!-- bootstrap js file -->
+    <script src="../js/bootstrap.min.js"></script>
+    <!-- custom js file -->
+    <script src="../js/main.js"></script>
+    <!-- jquery js file -->
+    <script src="../js/jquery3.6.0.js"></script>
+</body>
+</html>
